@@ -1,6 +1,7 @@
+
 # Brainfuck_Interpreter
 
-This C-Programm will interpret Brainfuck-Code. It's highly optimized for minimizing the amount of proccesor cycles needed to interpret the code. In a competition with more than 850 submissions, my interpreter was the 5th fastest. The array-size of the Interpreter is set at 30000. The Brainfuck-command ',' was not implemented because the tests of the competition only performed mathematical operations and checked the output of the program on the terminal.
+This C-Program will interpret Brainfuck code. It's highly optimized for minimizing the amount of processor cycles needed to interpret the code. In a competition with more than 850 submissions, my interpreter was the 5th fastest. The array-size of the Interpreter is set at 30000. The Brainfuck-command ',' was not implemented because the tests of the competition only performed mathematical operations and checked the output of the program on the terminal.
 
 
 In order to run the interpreter the project has to be cloned
@@ -14,7 +15,7 @@ I willingly decided to implement all the code in one single C-file to make the c
 gcc main.c
 ````
 
-With that you're all set. You can now execute the interpreter. Run the executable and pass the Brainfuck-code as the only argument as a String. Example to run the interpreter for the Brainfuck-Code ">++.<+.": 
+With that you're all set. You can now execute the interpreter. Run the executable and pass the Brainfuck code as the only argument as a String. Example to run the interpreter for the Brainfuck code ">++.<+.": 
 ````
 ./a.out ">++.<+."
 ````
