@@ -1,7 +1,7 @@
 
 # Brainfuck_Interpreter
 
-This C-Program will interpret Brainfuck code. It's highly optimized for minimizing the amount of processor cycles needed to interpret the code. In a competition with more than 850 submissions, my interpreter was the 5th fastest. The array-size of the Interpreter is set at 30000. The Brainfuck-command `,` was not implemented because the tests of the competition only performed mathematical operations and checked the output of the program on the terminal for correctness.
+This C-Program will interpret Brainfuck code. It's highly optimized for minimizing the amount of processor cycles needed to interpret the code. In a competition with more than 850 submissions, my interpreter was the 2nd fastest. The array-size of the Interpreter is set at 30000. The Brainfuck-command `,` was not implemented because the tests of the competition only performed mathematical operations and checked the output of the program on the terminal for correctness.
 
 
 In order to run the interpreter the project has to be cloned
